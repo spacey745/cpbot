@@ -1,0 +1,30 @@
+{
+  "name": "master-feedback-reverse-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/preset-env": "^7.15.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  }
+}

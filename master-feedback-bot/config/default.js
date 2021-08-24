@@ -1,0 +1,36 @@
+export const botConfig = {
+  'TELEGRAM_API_KEY': '111111111111:AAAAAAAABBBBBBBBBCCCCCCCCDDDDD',
+  'PORT': '8100',
+  'ADMIN_GROUP_ID': -1002222222222222,
+  'SUPPORT_EMAIL': '',
+  'SERVER_URL': '',
+  'WEBHOOK_PATH': '',
+  'MASTER_ADMIN_GROUP_ID': -10011111111111,
+  'ENV': 'DEV',
+  'PROXY_PORT': '8443',
+  'MONGO_DB_URL': 'mongodb://user:password@localhost:48773/masterbot-dev',
+  'FIREBASE_DB_URL': 'https://masterbot-dev-810f0-default-rtdb.europe-west1.firebasedatabase.app',
+  'FIREBASE_CONFIG_JSON': {
+    'type': 'service_account',
+    'project_id': 'PROJECT_ID',
+    'private_key_id': '02ded8e0d8b350a11111122222333333',
+    'private_key': '-----BEGIN PRIVATE KEY-----\n\n-----END PRIVATE KEY-----\n',
+    'client_email': 'firebase-adminsdk-111abc@blablabla.iam.gserviceaccount.com',
+    'client_id': '1234567890987654321',
+    'auth_uri': 'https://accounts.google.com/o/oauth2/auth',
+    'token_uri': 'https://oauth2.googleapis.com/token',
+    'auth_provider_x509_cert_url': 'https://www.googleapis.com/oauth2/v1/certs',
+    'client_x509_cert_url':
+      'https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-blablabla.iam.gserviceaccount.com',
+  },
+  'DB_TABLE': 'masterbot-dev',
+  'CRYPT_KEY': 'abcdefg123454bA4abcdefghtIet7Yh4',
+  'IV': 'af0e18cde29ac2090f385b1df2cf20bb', // a 16 bytes hex string, ex. 00000000000000000000000000000000 or 05d63170cdaf03bdba6c62e580a06b29
+  'ADMIN_MIRROR_GROUP_ID': -100123456789,
+  'CUSTOM_STRINGS': {
+    'onStart': '',
+    'onEachMessage': '',
+  },
+  'STORE_USER_DETAILS': true,
+  'ADMIN_FAV_GROUP_ID': -100321321321,
+};
